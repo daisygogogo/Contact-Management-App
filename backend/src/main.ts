@@ -52,7 +52,7 @@ async function bootstrap() {
 
   app.use(cookieParser());
   app.enableCors({
-    origin: ['http://localhost:4200', 'http://localhost:4000', 'http://localhost:4001', 'https://angular-example-app.netlify.app'],
+    origin: ['https://contact-management-app-158.vercel.app', 'http://localhost:4001'],
     credentials: true,
   });
 
@@ -89,8 +89,8 @@ async function bootstrap() {
   }
 
   const port = String(appConfigService.port);
-  await app.listen(port);
-  logger.log(`Application is listening on port ${port}`);
+  await app.listen(port, '0.0.0.0');
+  logger.log(`Application is listening on port ${port} on all network interfaces`);
 }
 
 void bootstrap();
