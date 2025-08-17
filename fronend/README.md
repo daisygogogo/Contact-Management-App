@@ -112,19 +112,6 @@ src/
 
 ## Configuration
 
-### Path Aliases
-The project uses TypeScript path aliases configured with Craco:
-
-- `@/*` → `src/*`
-- `@/components/*` → `src/components/*`
-- `@/lib/*` → `src/lib/*`
-- `@/types/*` → `src/types/*`
-- `@/services/*` → `src/services/*`
-- `@/stores/*` → `src/stores/*`
-- `@/pages/*` → `src/pages/*`
-
-### API Configuration
-Update the API base URL in `src/services/api.ts`:
 
 ```typescript
 const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:4001';
@@ -159,14 +146,6 @@ theme: {
   }
 }
 ```
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## License
 

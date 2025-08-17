@@ -13,21 +13,27 @@ This repository contains two main projects:
 
 ### Backend
 Navigate to the backend directory and follow the setup instructions:
-```bash
-cd backend
-npm install
-npm run setup
-```
-
 See [Backend README](./backend/README.md) for detailed setup instructions.
 
 ### Frontend
 Navigate to the frontend directory and install dependencies:
-```bash
-cd frontend
-npm install
-npm start
-```
+See [Frontend README](./frontend/README.md) for detailed setup instructions.
+
+### Page Display
+
+#### Authentication Pages
+![Login Page](./docs/images/login.png)
+*User login interface*
+
+![Signup Page](./docs/images/singup.png)
+*User registration interface*
+
+#### Contact Management
+![Add Contact](./docs/images/add-contact.png)
+*Add new contact form*
+
+![Manage Contacts](./docs/images/manage-contacts.png)
+*Contact list and management interface*
 
 ## 🛠️ Tech Stack
 

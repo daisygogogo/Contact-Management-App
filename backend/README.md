@@ -27,6 +27,9 @@
 
 ## Setup
 
+**Requirements:**
+- Node.js version 18.0.0 or higher
+
 Install dependencies first
 
 ```bash
