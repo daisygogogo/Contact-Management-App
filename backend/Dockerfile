@@ -5,7 +5,7 @@ WORKDIR /app
 COPY package*.json .npmrc ./
 COPY prisma ./prisma/
 
-RUN npm ci --only=production
+RUN npm ci
 
 COPY . .
 
