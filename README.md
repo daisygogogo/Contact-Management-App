@@ -9,6 +9,15 @@ This repository contains two main projects:
 - **Backend** - NestJS API server with Prisma ORM and PostgreSQL
 - **Frontend** - React application with TypeScript and Tailwind CSS
 
+## View through this link and try the following accounts:
+[Contact Management App](https://contact-management-app-158.vercel.app/)
+
+| User Type     | Email              | Password | Role  | Permissions                        |
+| ------------- | ----------------- | -------- | ----- | ---------------------------------- |
+| Regular User  | test@example.com  | 123456   | USER  | Can only access their own contacts |
+| Admin User    | admin@example.com | 123456   | ADMIN | Can access all users' contacts     |
+
+
 ## 🚀 Quick Start
 
 ### Backend
